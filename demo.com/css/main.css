@@ -1,0 +1,141 @@
+body{
+	font-family: roboto;
+}
+
+/*Navigation */
+
+nav{
+	background:#021428;
+	width:1903px;
+	height:70px;
+}
+
+a{
+	line-height: 
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left:20px;
+	position: relative;
+	top: -13px;
+	left: 40px;
+}
+
+a:hover{
+	color:yellow;
+}
+
+
+a.active{
+	color:lime;
+}
+
+img#logo{
+	margin-left: 402px;
+	margin-right: 20px;
+	margin-top: 14px;
+}
+/* slide show */
+
+img#slideshow{
+	border-bottom: 10px solid #021428;
+	width: 1903px;
+}
+/*services page content*/
+section#paragraph{
+	margin: 100px;
+}
+
+/*services page */
+h1#page-title{
+	margin-left: 400px
+	color:#021428;
+}
+
+img#services-slide{
+	margin-left: 401px;
+	width: 67%;
+}
+section#services-paragraph{
+	margin:100px;
+	margin-left: 400px;
+}
+/* portfolio page */
+img#project1-img, img#project2-img, img#project3-img{
+	margin-left: 401px;
+
+}
+div#project1{
+	margin-left:1201px;
+	position: absolute;
+	top:121px;
+	left: 0px;
+	width: 466px;
+}
+a.project1-button{
+	width: 100px;
+	height:60px;
+	background: #c51a1a;
+	padding:20px;
+	position:relative;
+	top:4px;
+	left:-21px;
+}
+div#project2{
+	margin-left:1201px;
+	position: absolute;
+	top:121px;
+	left: 0px;
+	width: 466px;
+}
+a.project2-button{
+	width: 100px;
+	height:60px;
+	background: #c51a1a;
+	padding:20px;
+	position:relative;
+	top:4px;
+	left:-21px;
+}
+section#project2 {
+	margin-top:100px;
+}
+section#project3 {
+	margin-top:100px;
+}
+/*About Page */
+
+img#about-img{
+	margin-left:402px; 
+}
+/*contact page*/
+form{
+	margin-left:402px;
+}
+.form-control{
+	display: block;
+	width: 40x;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15% ease-in-out, box-shadow .15% ease-in-out; 
+}
+
+/* footer */
+footer {
+	margin-top: 200px;
+	background: #021428;
+	width: 100%;
+	height: 215px;
+	color: white;
+
+}
+p#footer-text{
+	line-height: 13;
+	text-align:center;
+}
